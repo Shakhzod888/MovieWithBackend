@@ -10,7 +10,7 @@ export default class Main extends React.Component {
     selectedGenre: null,
     createS: { display: "none" },
   };
-
+  //
   componentDidMount() {
     axios
       .get("https://pdp-movies-78.onrender.com/api/movies")
